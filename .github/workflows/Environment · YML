@@ -1,0 +1,13 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  # add your project's real dependencies here, e.g.:
+  # - numpy
+  # - pandas
+  - pip:
+      # and any pip-only dependencies here, e.g.:
+      # - some-pypi-only-package
