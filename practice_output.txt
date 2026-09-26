@@ -1,0 +1,134 @@
+
+======================================================================
+Q1. Load CSV and display basic info
+======================================================================
+
+Shape (rows, columns): (124, 9)
+
+First 5 rows:
+   OrderID               Product        Category  Quantity  UnitPrice  Revenue Region   OrderDate  \
+0     1073         Running Shoes        Clothing         2      87.84   175.68   West  2024-01-26   
+1     1002          Laptop Stand     Electronics         7      20.53   143.71  North  2024-04-24   
+2     1077  Novel: The Long Road           Books         7      24.27   169.89   East  2024-01-24   
+3     1009         Running Shoes        Clothing         3     205.85   617.55   West  2024-01-21   
+4     1016           Cutlery Set  Home & Kitchen         4      40.00   160.00  South  2024-03-18   
+
+   CustomerRating  
+0             4.1  
+1             4.1  
+2             4.0  
+3             4.9  
+4             3.1  
+
+df.info():
+<class 'pandas.DataFrame'>
+RangeIndex: 124 entries, 0 to 123
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   OrderID         124 non-null    int64  
+ 1   Product         124 non-null    str    
+ 2   Category        124 non-null    str    
+ 3   Quantity        124 non-null    int64  
+ 4   UnitPrice       124 non-null    float64
+ 5   Revenue         124 non-null    float64
+ 6   Region          119 non-null    str    
+ 7   OrderDate       124 non-null    str    
+ 8   CustomerRating  118 non-null    float64
+dtypes: float64(3), int64(2), str(4)
+memory usage: 8.8 KB
+
+df.describe() (numeric columns):
+           OrderID    Quantity   UnitPrice      Revenue  CustomerRating
+count   124.000000  124.000000  124.000000   124.000000      118.000000
+mean   1060.112903    4.467742  108.245887   479.759677        3.629661
+std      35.236532    2.235833   63.735658   397.440524        0.768316
+min    1000.000000    1.000000    8.040000    11.250000        2.500000
+25%    1029.750000    2.750000   51.510000   162.920000        2.900000
+50%    1060.500000    4.000000  103.650000   392.160000        3.600000
+75%    1091.250000    7.000000  163.177500   630.877500        4.200000
+max    1119.000000    8.000000  218.720000  1749.760000        5.000000
+
+======================================================================
+Q2. Handle missing values and duplicates
+======================================================================
+
+Missing values per column (before cleaning):
+OrderID           0
+Product           0
+Category          0
+Quantity          0
+UnitPrice         0
+Revenue           0
+Region            5
+OrderDate         0
+CustomerRating    6
+dtype: int64
+
+Fully duplicated rows (before cleaning): 4
+
+Missing values per column (after cleaning):
+OrderID           0
+Product           0
+Category          0
+Quantity          0
+UnitPrice         0
+Revenue           0
+Region            0
+OrderDate         0
+CustomerRating    0
+dtype: int64
+
+Duplicate rows (after cleaning): 0
+Row count: 124 -> 120 after cleaning
+
+======================================================================
+Q3. Total revenue by category
+======================================================================
+Category
+Sports            14428.26
+Clothing          12437.06
+Home & Kitchen    11196.77
+Electronics       10630.29
+Books              9727.56
+Name: Revenue, dtype: float64
+
+Saved chart: revenue_by_category.png
+
+======================================================================
+Q4. Sort by multiple columns (Category asc, Revenue desc)
+======================================================================
+    Category               Product  Revenue   Region
+120    Books     Data Analysis 101  1411.55    South
+14     Books       History of Rome  1209.39     West
+8      Books     Data Analysis 101  1030.26     West
+24     Books       History of Rome   976.40     West
+31     Books  Novel: The Long Road   939.60    North
+107    Books       History of Rome   624.92     East
+57     Books     Data Analysis 101   599.72  Unknown
+19     Books       History of Rome   594.15     West
+112    Books  Novel: The Long Road   592.88    South
+110    Books  Novel: The Long Road   433.89     East
+46     Books     Data Analysis 101   416.54     West
+117    Books            SQL Basics   412.53     West
+2      Books  Novel: The Long Road   169.89     East
+111    Books  Novel: The Long Road   125.08     West
+85     Books            SQL Basics    67.50    North
+
+======================================================================
+Q5. Correlation matrix (numerical columns)
+======================================================================
+                Quantity  UnitPrice  Revenue  CustomerRating
+Quantity            1.00      -0.04     0.55            0.08
+UnitPrice          -0.04       1.00     0.72           -0.01
+Revenue             0.55       0.72     1.00            0.01
+CustomerRating      0.08      -0.01     0.01            1.00
+
+Saved chart: correlation_heatmap.png
+
+Saved cleaned dataset: sales_data_cleaned.csv
+
+======================================================================
+Done
+======================================================================
+All 5 practice questions completed.

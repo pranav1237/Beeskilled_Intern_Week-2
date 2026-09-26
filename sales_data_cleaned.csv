@@ -1,0 +1,121 @@
+OrderID,Product,Category,Quantity,UnitPrice,Revenue,Region,OrderDate,CustomerRating
+1073,Running Shoes,Clothing,2,87.84,175.68,West,2024-01-26,4.1
+1002,Laptop Stand,Electronics,7,20.53,143.71,North,2024-04-24,4.1
+1077,Novel: The Long Road,Books,7,24.27,169.89,East,2024-01-24,4.0
+1009,Running Shoes,Clothing,3,205.85,617.55,West,2024-01-21,4.9
+1016,Cutlery Set,Home & Kitchen,4,40.0,160.0,South,2024-03-18,3.1
+1116,Blender,Home & Kitchen,2,205.5,411.0,East,2024-04-07,3.0
+1000,Non-stick Pan,Home & Kitchen,7,146.0,1022.0,North,2024-02-18,3.4
+1036,Tennis Racket,Sports,6,41.05,246.3,South,2024-01-11,2.5
+1061,Data Analysis 101,Books,7,147.18,1030.26,West,2024-09-16,3.3
+1056,Blender,Home & Kitchen,4,22.12,88.48,North,2024-08-20,2.5
+1029,Blender,Home & Kitchen,1,175.5,175.5,West,2024-05-12,3.0
+1097,Coffee Maker,Home & Kitchen,2,75.69,151.38,East,2024-05-12,4.5
+1039,Cotton T-Shirt,Clothing,6,198.31,1189.86,West,2024-09-13,2.8
+1104,Wireless Mouse,Electronics,3,57.31,171.93,North,2024-06-04,4.9
+1006,History of Rome,Books,7,172.77,1209.39,West,2024-08-20,3.4
+1042,Camping Tent,Sports,8,174.27,1394.16,North,2024-01-30,3.1
+1090,Denim Jacket,Clothing,5,100.48,502.4,Unknown,2024-04-07,4.4
+1075,Camping Tent,Sports,2,147.77,295.54,North,2024-08-30,3.1
+1088,Air Fryer,Home & Kitchen,6,21.78,130.68,West,2024-02-09,3.4
+1113,History of Rome,Books,3,198.05,594.15,West,2024-08-01,4.8
+1083,Cotton T-Shirt,Clothing,2,38.05,76.1,East,2024-07-03,2.8
+1030,Cycling Helmet,Sports,8,179.42,1435.36,East,2024-07-05,2.7
+1035,Cotton T-Shirt,Clothing,3,133.25,399.75,West,2024-03-15,4.0
+1065,Running Shoes,Clothing,8,8.77,70.16,East,2024-06-17,4.9
+1015,History of Rome,Books,5,195.28,976.4,West,2024-05-22,4.3
+1062,Denim Jacket,Clothing,6,50.11,300.66,South,2024-07-26,5.0
+1058,Bluetooth Speaker,Electronics,5,18.68,93.4,South,2024-06-08,4.1
+1086,Wool Sweater,Clothing,6,87.73,526.38,North,2024-06-18,2.5
+1022,Yoga Mat,Sports,2,193.36,386.72,West,2024-03-17,4.1
+1021,USB-C Hub,Electronics,1,29.7,29.7,South,2024-02-21,4.9
+1026,Yoga Mat,Sports,5,215.44,1077.2,North,2024-05-13,3.8
+1101,Novel: The Long Road,Books,5,187.92,939.6,North,2024-03-06,2.6
+1049,Webcam,Electronics,8,42.51,340.08,South,2024-03-23,4.3
+1117,Tennis Racket,Sports,1,74.11,74.11,West,2024-07-10,3.6
+1028,Denim Jacket,Clothing,7,164.85,1153.95,South,2024-04-12,3.8
+1051,Blender,Home & Kitchen,6,125.46,752.76,West,2024-01-10,3.5
+1005,Cotton T-Shirt,Clothing,4,86.95,347.8,North,2024-01-31,4.0
+1107,Cutlery Set,Home & Kitchen,5,211.3,1056.5,South,2024-08-31,3.8
+1095,Cotton T-Shirt,Clothing,4,114.13,456.52,West,2024-04-22,3.6
+1054,Wool Sweater,Clothing,5,94.06,470.3,West,2024-06-16,2.7
+1060,USB-C Hub,Electronics,1,11.25,11.25,Unknown,2024-09-20,3.7
+1020,Webcam,Electronics,7,21.2,148.4,North,2024-04-16,3.6
+1099,Webcam,Electronics,5,129.75,648.75,East,2024-03-05,4.2
+1066,Cycling Helmet,Sports,4,15.3,61.2,East,2024-04-21,3.4
+1052,Camping Tent,Sports,5,116.6,583.0,North,2024-02-27,5.0
+1105,Coffee Maker,Home & Kitchen,7,156.1,1092.7,North,2024-02-20,2.7
+1011,Data Analysis 101,Books,2,208.27,416.54,West,2024-02-03,2.7
+1041,Denim Jacket,Clothing,3,108.38,325.14,North,2024-02-01,3.6
+1031,Bluetooth Speaker,Electronics,8,49.7,397.6,South,2024-09-04,4.1
+1102,History of Rome,Books,8,8.04,64.32,West,2024-08-27,4.9
+1115,Dumbbell Set,Sports,7,18.99,132.93,North,2024-04-04,3.5
+1106,Camping Tent,Sports,4,90.27,361.08,South,2024-01-01,2.5
+1069,Webcam,Electronics,1,71.52,71.52,Unknown,2024-02-13,4.0
+1078,Cotton T-Shirt,Clothing,3,78.34,235.02,East,2024-03-09,2.5
+1100,Dumbbell Set,Sports,2,65.46,130.92,South,2024-07-15,3.5
+1046,Wool Sweater,Clothing,2,91.18,182.36,East,2024-02-07,3.6
+1047,Data Analysis 101,Books,4,149.93,599.72,Unknown,2024-03-20,4.8
+1087,Cutlery Set,Home & Kitchen,2,207.25,414.5,South,2024-01-07,4.8
+1111,Coffee Maker,Home & Kitchen,2,51.51,103.02,South,2024-06-08,4.4
+1018,Wool Sweater,Clothing,6,137.28,823.68,East,2024-03-05,4.2
+1093,Dumbbell Set,Sports,3,108.1,324.3,East,2024-05-24,3.2
+1096,Cutlery Set,Home & Kitchen,7,37.59,263.13,South,2024-05-04,2.7
+1072,Camping Tent,Sports,1,183.2,183.2,South,2024-02-13,2.6
+1038,Running Shoes,Clothing,4,169.9,679.6,East,2024-05-12,3.9
+1019,Camping Tent,Sports,1,104.81,104.81,West,2024-07-22,3.5
+1108,Dumbbell Set,Sports,1,211.65,211.65,East,2024-01-29,2.6
+1068,Rain Jacket,Clothing,1,27.26,27.26,North,2024-03-14,3.5
+1008,Cutlery Set,Home & Kitchen,5,137.1,685.5,North,2024-03-01,3.8
+1003,Yoga Mat,Sports,7,18.51,129.57,South,2024-01-24,3.9
+1103,Cotton T-Shirt,Clothing,4,40.73,162.92,North,2024-08-22,2.7
+1059,Dumbbell Set,Sports,5,102.49,512.45,South,2024-05-18,3.4
+1050,Tennis Racket,Sports,6,97.31,583.86,East,2024-06-12,2.7
+1114,Laptop Stand,Electronics,3,203.45,610.35,North,2024-04-19,2.6
+1053,Cotton T-Shirt,Clothing,2,64.3,128.6,North,2024-04-02,3.2
+1085,Novel: The Long Road,Books,1,41.72,41.72,West,2024-08-18,3.5
+1040,Rain Jacket,Clothing,1,193.03,193.03,South,2024-01-03,4.4
+1110,USB-C Hub,Electronics,7,84.81,593.67,West,2024-04-11,2.5
+1098,Cotton T-Shirt,Clothing,7,89.16,624.12,South,2024-07-11,3.2
+1118,Python Crash Course,Books,2,8.61,17.22,East,2024-02-11,3.4
+1007,Denim Jacket,Clothing,4,25.35,101.4,East,2024-09-25,3.7
+1014,Non-stick Pan,Home & Kitchen,4,92.35,369.4,West,2024-02-11,2.9
+1044,Camping Tent,Sports,4,154.86,619.44,West,2024-09-17,3.8
+1089,SQL Basics,Books,1,67.5,67.5,North,2024-05-26,4.1
+1057,Tennis Racket,Sports,5,139.8,699.0,North,2024-09-26,3.6
+1010,Laptop Stand,Electronics,6,80.11,480.66,East,2024-09-11,3.9
+1094,Cutlery Set,Home & Kitchen,4,71.78,287.12,West,2024-03-02,3.6
+1027,Running Shoes,Clothing,4,120.91,483.64,East,2024-04-24,4.0
+1023,Coffee Maker,Home & Kitchen,6,108.52,651.12,North,2024-09-06,5.0
+1079,Webcam,Electronics,5,214.17,1070.85,North,2024-04-21,4.2
+1064,Webcam,Electronics,5,134.94,674.7,East,2024-01-24,3.6
+1043,Blender,Home & Kitchen,2,115.64,231.28,North,2024-02-02,3.6
+1070,Dumbbell Set,Sports,7,170.03,1190.21,West,2024-03-17,3.2
+1067,USB-C Hub,Electronics,7,25.78,180.46,East,2024-09-14,4.1
+1017,Cotton T-Shirt,Clothing,8,184.19,1473.52,South,2024-05-14,3.2
+1112,Denim Jacket,Clothing,8,54.95,439.6,East,2024-02-25,4.9
+1119,Laptop Stand,Electronics,4,88.59,354.36,East,2024-08-09,2.7
+1084,Cycling Helmet,Sports,2,157.11,314.22,South,2024-09-11,4.7
+1037,Laptop Stand,Electronics,3,99.97,299.91,South,2024-04-18,2.6
+1074,Dumbbell Set,Sports,8,63.92,511.36,West,2024-02-05,4.4
+1001,Laptop Stand,Electronics,4,15.95,63.8,West,2024-08-02,2.7
+1012,Coffee Maker,Home & Kitchen,8,68.33,546.64,West,2024-06-26,2.6
+1034,Blender,Home & Kitchen,7,106.19,743.33,North,2024-03-22,2.9
+1004,Running Shoes,Clothing,7,38.58,270.06,North,2024-06-06,3.9
+1045,History of Rome,Books,4,156.23,624.92,East,2024-04-13,4.6
+1032,Yoga Mat,Sports,8,200.75,1606.0,East,2024-02-13,4.6
+1048,Non-stick Pan,Home & Kitchen,5,195.16,975.8,West,2024-04-22,4.4
+1092,Novel: The Long Road,Books,3,144.63,433.89,East,2024-09-05,2.6
+1109,Novel: The Long Road,Books,2,62.54,125.08,West,2024-07-08,3.1
+1024,Novel: The Long Road,Books,8,74.11,592.88,South,2024-02-22,3.6
+1082,Laptop Stand,Electronics,8,218.72,1749.76,West,2024-04-17,4.8
+1071,Dumbbell Set,Sports,1,182.87,182.87,West,2024-09-15,2.8
+1033,Webcam,Electronics,4,109.34,437.36,South,2024-08-10,4.5
+1076,USB-C Hub,Electronics,4,162.62,650.48,South,2024-04-28,4.3
+1013,SQL Basics,Books,3,137.51,412.53,West,2024-01-31,3.0
+1055,Bluetooth Speaker,Electronics,7,197.8,1384.6,East,2024-01-09,4.1
+1081,Dumbbell Set,Sports,5,215.36,1076.8,West,2024-01-09,3.2
+1091,Data Analysis 101,Books,7,201.65,1411.55,South,2024-02-11,2.6
+1080,Coffee Maker,Home & Kitchen,5,106.51,532.55,West,2024-03-01,5.0
+1063,Bluetooth Speaker,Electronics,1,22.99,22.99,East,2024-08-08,2.9
+1025,Cutlery Set,Home & Kitchen,3,117.46,352.38,Unknown,2024-07-04,2.9
